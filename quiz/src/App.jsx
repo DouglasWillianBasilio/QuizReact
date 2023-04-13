@@ -6,7 +6,6 @@ import Welcome from './components/Welcome'
 import Question from './components/Question';
 
 import './App.css'
-import { QuizContext } from './context/quiz';
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext)
