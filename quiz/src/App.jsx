@@ -22,7 +22,7 @@ function App() {
   // Retornando a estrutura HTML com base no estado do jogo
   return (
     <div className="App">
-      <h1>Quiz de Programacao</h1>
+      <h1>Quiz de Programação</h1>
       {/* Mostrando o componente Welcome se o estado do jogo é "Start" */}
       {quizState.gameStage === "Start" && <Welcome />}
       {/* Mostrando o componente Question se o estado do jogo é "Playing" */}
